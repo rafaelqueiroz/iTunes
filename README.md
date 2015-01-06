@@ -25,13 +25,13 @@ Controllers that will be using ITunes require the ITunes Component to be include
 public $components = array('ITunes.ITunes');
 ```
 
-Example #1
+Search Example:
 
 ```php
 $search = $this->ITunes->search('jack johnson');
 ````
 
-Example #2
+Lookup Example:
 
 ```php
 $lookup = $this->ITunes->lookup(array('id' => '909253', 'entity' => 'album'));
